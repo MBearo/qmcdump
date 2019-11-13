@@ -4,6 +4,10 @@
 
 ## 使用
 
+不能直接双击文件打开index.html使用，不支持file协议
+
+如果本机有node.js
+
 ```shell
 npm install @mbears/web-server -g
 cd qmcdump
@@ -11,6 +15,8 @@ web-server
 ```
 
 然后浏览器访问 http://localhost:3000
+
+如果没有node.js可以使用任意web服务启动index.html
 
 ## 参考
 
