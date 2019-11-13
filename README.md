@@ -4,7 +4,13 @@
 
 ## 使用
 
-使用web服务启动
+```shell
+npm install @mbears/web-server -g
+cd qmcdump
+web-server
+```
+
+然后浏览器访问 http://localhost:3000
 
 ## 参考
 
